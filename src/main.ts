@@ -1,6 +1,7 @@
 import './style.css';
+// eslint-disable-next-line import/no-absolute-path
+import viteLogo from '/vite.svg';
 import typescriptLogo from './typescript.svg';
-import viteLogo from '../../../vite.svg';
 import setupCounter from './counter';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
